@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700&family=Montserrat:wght@500;700&display=swap');
+
+:root {
+    --fonte-primaria: 'Montserrat', sans-serif;
+    --fonte-secundaria: 'Fraunces', sans-serif;
+
+    --cor-primaria: hsl(158,36%,37%);
+    --cor-secundaria: hsl(30,38%,92%);
+
+    --branco: hsl(0,0%,100%);
+    --azul-escuro: hsl(212,21%,14%);
+    --azul-acizentado: hsl(228,12%,48%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+    font-family: var(--fonte-primaria);
+    color: var(--azul-acizentado);
+    background-color: var(--cor-secundaria);
+    font-size: 14px;
+}
+
+.container__imagem__foto {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.container__conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 30px 20px;
+    gap: 5px;
+    background-color: var(--branco);
+    border-radius: 10px;
+}
+
+.container__tipo {
+    padding-top: 15px;
+    padding-left: 20px;
+    font-size: 12px;
+}
+
+.container__titulo {
+    font-family: var(--fonte-secundaria);
+    font-size: 2.3em;
+    color: var(--azul-escuro);
+    padding-left: 20px;
+}
+
+.container__info {
+    padding: 10px 20px;
+}
+
+.container__preco {
+    display: flex;
+    align-items: center;
+}
+
+.container__preco__novo {
+    font-size: 2.3em;
+    font-family: var(--fonte-secundaria);
+    color: var(--cor-primaria);
+    padding: 5px 20px;
+}
+
+.container__preco__antigo {
+    text-decoration: line-through;
+}
+
+.container__adicionar {
+    width: 80%;
+    background: var(--cor-primaria);
+    margin: 20px;
+    padding-left: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: var(--branco);
+    text-decoration: none;
+    border-radius: 10px;
+    height: 50px;
+    font-weight: bold;
+}
+
+
+.rodape {
+    color: var(--azul-escuro);
+    background-color: var(--branco);
+    padding: 10px;
+    text-align: center;
+    font-family: var(--fonte-primaria);
+    font-size: .8rem;
+}
