@@ -10,9 +10,9 @@ Essa é a suloção para o  [Product preview card component challenge on Fronten
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [Links](#links)
-- [Meu processo](#my-process)
+- [Meu processo](#meu-processo)
   - [Built with](#built-with)
-  - [O que aprendi?](#what-i-learned)
+  - [O que aprendi?](#o-que-aprendi)
   - [Continued development](#continued-development)
 - [Author](#author)
 
@@ -28,7 +28,7 @@ Fui capaz de :
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](https://github.com/Emanuelmts/preview-produto/assets/44686829/b5b99d92-a64f-4367-9104-96a11856cb6d)
 
 
 ### Links
@@ -50,7 +50,7 @@ Fui capaz de :
 
 Utilizei para porr em prática o que aprendi sobrer HTML e CSS em um projeto o mais próximo ppossível da realidade.
 
-Utilização da tag picture:
+Utilização da tag `picture`:
 
 ```html
 <picture>
