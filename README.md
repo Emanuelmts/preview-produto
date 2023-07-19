@@ -33,7 +33,7 @@ Fui capaz de :
 
 ### Links
 
-- Solução no Vercel: [Deploy]([https://your-live-site-url.com](https://preview-produto-l2dcsst2a-emanuelmts.vercel.app/))
+- Solução no Vercel: ![Deploy]([https://your-live-site-url.com](https://preview-produto-l2dcsst2a-emanuelmts.vercel.app/))
 
 ## Meu processo
 
